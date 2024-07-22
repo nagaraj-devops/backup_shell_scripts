@@ -26,12 +26,12 @@ capture_mysql_input.sh
 
 ## Export the values 
 ```
-sudo cp saved_vars.sh /usr/local/bin
+sudo mv saved_vars.sh /usr/local/bin
 sudo chmod +x /usr/local/bin/saved_vars.sh
 ```
 ## Run the shell script
 ```
-saved_vars.sh
+cat saved_vars.sh
 ```
 
 ## Once the values are assigned, run the following command
