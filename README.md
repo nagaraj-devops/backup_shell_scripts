@@ -20,6 +20,9 @@ sudo chmod +x /usr/local/bin/for_mysql_contants.sh
 ```
 
 ## Check the for_mysql_constants.txt and change the values accordingly and run each line from the file
+```
+cat /usr/local/bin/for_mysql_contants.sh
+```
 
 ```
 export DB_HOST='your_database_host'
