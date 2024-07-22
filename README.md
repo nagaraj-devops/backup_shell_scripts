@@ -9,6 +9,7 @@ git clone https://github.com/nagaraj-devops/backup_shell_scripts.git
 ```
 ## Run the below commands
 ```
+cd backup_shell_scripts
 sudo cp mysql_db_backup_script.sh /usr/local/bin
 sudo cp capture_mysql_input.sh /usr/local/bin
 ```
