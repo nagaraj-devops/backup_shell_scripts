@@ -31,10 +31,15 @@ sudo chmod +x /usr/local/bin/saved_vars.sh
 ```
 ## Run the shell script
 ```
-cat saved_vars.sh
+source saved_vars.sh
 ```
 
 ## Once the values are assigned, run the following command
 ```
 mysql_db_backup_script.sh
+```
+
+## You can remove the git repo
+```
+sudo rm -rf backup_shell_scripts
 ```
