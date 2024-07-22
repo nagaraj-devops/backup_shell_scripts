@@ -31,7 +31,7 @@ sudo chmod +x /usr/local/bin/saved_vars.sh
 ```
 ## Run the shell script
 ```
-capture_mysql_input.sh
+saved_vars.sh
 ```
 
 ## Once the values are assigned, run the following command
