@@ -1,4 +1,4 @@
-# Steps to take database backup of Mysql Database
+# Steps to take database backup of PostgreSQL Database
 Shell Scripts to take backup
 
 ## take a clone of git repo
