@@ -11,16 +11,18 @@ git clone https://github.com/nagaraj-devops/backup_shell_scripts.git
 
 ```
 sudo cp postgresql_db_backup_script.sh /usr/local/bin
+sudo cp for_postgresql_constants.sh /usr/local/bin
 ```
 
 ```
 sudo chmod +x /usr/local/bin/postgresql_db_backup_script.sh
+sudo chmod +x /usr/local/bin/for_postgresql_constants.sh
 ```
 
 ## Check the for_postgresql_constants.txt and change the values accordingly and run each line from the file
 
 ```
-cat for_postgresql_constants.txt
+cat /usr/local/bin/for_postgresql_constants.sh
 ```
 
 ```
@@ -34,5 +36,5 @@ export PROJECT_NAME='your_project_name'
 
 ## Once the values are assigned, run the following command
 ```
-./postgresql_db_backup_script.sh
+postgresql_db_backup_script.sh
 ```
